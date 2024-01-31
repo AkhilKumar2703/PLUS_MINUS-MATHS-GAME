@@ -1,4 +1,7 @@
-*PLUS MINUS*
+**PLUS MINUS**
+
+
+
 ~Built an Android math game in Kotlin with a user-friendly interface for selecting operations.
 
 
