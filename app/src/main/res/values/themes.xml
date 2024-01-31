@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PlusMinus" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/green</item>
+         <item name="colorPrimaryVariant">@color/green</item>
+         <item name="colorOnPrimary">@color/white</item>
+    </style>
+    <style name="Base.Theme.GamePage" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+    <style name="Base.Theme.ResultPage" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/ice_blue</item>
+        <item name="colorPrimaryVariant">@color/ice_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.PlusMinus" parent="Base.Theme.PlusMinus" />
+</resources>

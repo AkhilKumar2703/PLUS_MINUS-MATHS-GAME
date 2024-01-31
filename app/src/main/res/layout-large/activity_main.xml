@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:layout_marginTop="140dp"
+        android:background="@color/green"
+        android:backgroundTint="@color/green"
+        android:text="ADDITION"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:layout_marginTop="20sp"
+        android:background="@color/green"
+        android:backgroundTint="@color/green"
+        android:text="SUBTRACTION"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonMul"
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:layout_marginTop="20sp"
+        android:background="@color/green"
+        android:backgroundTint="@color/green"
+        android:text="MULTIPLICATION"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonDiv"
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:layout_marginTop="20sp"
+        android:background="@color/green"
+        android:backgroundTint="@color/green"
+        android:text="DIVISION"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</LinearLayout>
