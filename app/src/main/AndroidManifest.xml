@@ -12,20 +12,30 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".divActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/Base.Theme.GamePage"/>
+            android:theme="@style/Base.Theme.GamePage" />
         <activity
             android:name=".mulActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/Base.Theme.GamePage"/>
+            android:theme="@style/Base.Theme.GamePage" />
         <activity
             android:name=".subActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/Base.Theme.GamePage"/>
+            android:theme="@style/Base.Theme.GamePage" />
         <activity
             android:name=".ResultActivity"
             android:exported="false"
@@ -39,11 +49,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Base.Theme.PlusMinus">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

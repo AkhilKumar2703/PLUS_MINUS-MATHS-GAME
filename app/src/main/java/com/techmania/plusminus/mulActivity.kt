@@ -97,7 +97,7 @@ class mulActivity : AppCompatActivity() {
 
         val number1 = Random.nextInt(0,30)
         val number2 = Random.nextInt(0,30)
-        textQuestion.text = "ADD $number1 * $number2"
+            textQuestion.text = "MULTIPLY $number1 * $number2"
 
         correctAnswer = number1 * number2
         startTimer()

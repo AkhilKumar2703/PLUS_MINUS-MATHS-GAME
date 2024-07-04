@@ -18,6 +18,13 @@
         <item name="colorPrimaryVariant">@color/ice_blue</item>
         <item name="colorOnPrimary">@color/white</item>
     </style>
+    <style name="splash" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/ice_blue</item>
+        <item name="colorPrimaryVariant">@color/ice_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+    </style>
+
 
     <style name="Theme.PlusMinus" parent="Base.Theme.PlusMinus" />
 </resources>

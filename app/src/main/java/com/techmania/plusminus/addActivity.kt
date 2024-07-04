@@ -16,10 +16,8 @@ class addActivity : AppCompatActivity() {
     lateinit var textScore: TextView
     lateinit var textLife: TextView
     lateinit var textTime: TextView
-
     lateinit var textQuestion: TextView
     lateinit var editTextAnswer: EditText
-
     lateinit var buttonOk: Button
     lateinit var buttonNext: Button
     var correctAnswer = 0

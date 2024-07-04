@@ -20,6 +20,7 @@ class ResultActivity : AppCompatActivity() {
         result = findViewById(R.id.textViewResult)
         playAgain = findViewById(R.id.buttonAgain)
         exit = findViewById(R.id.buttonExit)
+
         val score = intent.getIntExtra("score",0)
         result.text = ("Your Score:" + "$score").toString()
 

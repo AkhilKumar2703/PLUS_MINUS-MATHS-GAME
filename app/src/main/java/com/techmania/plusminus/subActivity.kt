@@ -98,7 +98,7 @@ class subActivity : AppCompatActivity() {
 
         val number1 = Random.nextInt(0,200)
         val number2 = Random.nextInt(0,100)
-        textQuestion.text = "ADD $number1 - $number2"
+        textQuestion.text = "SUBTRACT $number1 - $number2"
 
         correctAnswer = number1 - number2
         startTimer()
